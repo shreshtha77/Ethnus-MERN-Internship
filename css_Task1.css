@@ -1,0 +1,54 @@
+table {
+    width: 80%;
+    border-spacing: 5px; /* Add spacing between cells to show rounded corners */
+    border: 1.5px solid black;
+    border-radius: 20px;
+    border-collapse: separate;
+    background-color: aqua;
+    margin-top: 30px;
+    font-size: x-large;
+    margin-left: 175px;
+}
+
+th, td {
+    padding: 5px;
+    border: 1.5px solid black;
+    border-radius: 50px; /* Apply border-radius to th and td */
+    text-align: left;
+}
+
+.custom-table {
+    width: 60%;
+    border-collapse: separate;
+    border-spacing: 27px;
+    margin-left: 300px;
+}
+
+.custom-table th, .custom-table td {
+    width: 100px; /* Set a fixed width for each cell */
+    height: 100px; /* Set a fixed height for each cell */
+    border: 3px solid rgb(112, 170, 26);
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Specific shapes for each cell */
+.cell7 {
+    border-radius: 50%; /* Circle */
+}
+
+.cell3, .cell6 {
+    border-radius: 30px; /* Rounded rectangle */
+}
+
+.cell1, .cell2, .cell4 {
+    border-radius: 10px; /* Rounded rectangle */
+}
+
+.cell9 {
+    border-radius: 0 50px 0 50px; /* Different roundings */
+}
+
+.cell5, .cell8 {
+    border-radius: 0; /* Square */
+}

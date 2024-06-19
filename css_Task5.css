@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d4d25a; /* Light yellow-green background */
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.tab {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-left: 20px solid black;
+    width: 100px;
+    text-align: left;
+}
+
+.tab:hover {
+    background-color: #f0f0f0;
+}
+
+.content {
+    margin: 20px;
+}
+
+h1 {
+    color: #800080; /* Purple color */
+}
+
+hr {
+    border: 1px dotted #800080;
+    width: 50%;
+    margin-left: 0;
+}
+
+i {
+    color: #800080; /* Purple color */
+}

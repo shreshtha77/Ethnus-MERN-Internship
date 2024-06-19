@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.tabs {
+    position: fixed;
+    top: 40%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.tab {
+    background-color: #333;
+    color: white;
+    padding: 55px 55px;
+    width: 50px;
+    text-align: center;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-bottom: 10px; /* Add space between tabs */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; /* Add rounded corners */
+}
+
+/* Different background colors for each tab */
+#tab1 {
+    background-color: #0bb443; /* DodgerBlue */
+}
+
+#tab2 {
+    background-color: #0996d8; /* LimeGreen */
+}
+
+#tab3 {
+    background-color: #e62d2d; /* Gold */
+}
+
+#tab4 {
+    background-color: #5b5655; /* OrangeRed */
+}
+
+.tab:hover {
+    width: 200px;
+    background-color: #555;
+}
+
+/* Content styling */
+.content {
+    margin-left: 180px; /* Adjust this value to move content away from the tabs */
+    padding: 20px;
+}

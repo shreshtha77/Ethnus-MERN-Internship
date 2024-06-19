@@ -1,0 +1,20 @@
+table{
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: x-large;
+    text-align: left;
+    border: 1px solid rgb(219, 219, 214);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th{
+    background-color: rgb(69, 172, 109);
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color: rgb(219, 219, 214);
+}
+
